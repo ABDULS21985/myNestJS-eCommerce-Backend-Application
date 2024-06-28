@@ -10,6 +10,7 @@ import { Product } from './product/product.entity';
 import { Cart } from './cart/cart.entity';
 import { Order } from './order/order.entity';
 import { PaymentModule } from './payment/payment.module';
+// import { FeedbackModule } from './feedback/feedback.module';
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { PaymentModule } from './payment/payment.module';
     CartModule,
     OrderModule,
     PaymentModule,
+   
   ],
 })
 export class AppModule {}
